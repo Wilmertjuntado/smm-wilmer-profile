@@ -8,6 +8,10 @@ import Portfolio from "@/components/sections/Portfolio";
 import Packages from "@/components/sections/Packages";
 import About from "@/components/sections/About";
 import CTA from "@/components/sections/CTA";
+import Funnel from "@/components/sections/Funnel";
+
+
+
 
 export default function HomePage() {
   return (
@@ -18,6 +22,8 @@ export default function HomePage() {
         <Hero />
         <Problem />
         <Framework />
+        <Funnel />
+        
         <Proof />
         <Portfolio />
         <Packages />

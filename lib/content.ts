@@ -1,5 +1,5 @@
 export const heroContent = {
-  eyebrow: "Ecommerce Growth Partner",
+  eyebrow: "Ecommerce Growth Systems Built on Content, Funnels & SEO",
   title: "I Help Early-Stage Brands Turn Social Media Into a Predictable Growth System.",
   subtitle:
     "Strategy. Content. Paid Social. Analytics. Built for startups that want structured growth — not random posting.",
@@ -16,7 +16,7 @@ export const heroContent = {
 export const problemContent = {
   headline: "Most brands don’t struggle with content. They struggle with direction.",
   description:
-    "Posting consistently isn’t the problem. The real issue is lack of positioning, structure, and measurable growth systems.",
+     "I design structured growth systems that combine strategic content, conversion funnels, and SEO foundations — built to turn traffic into measurable revenue.",
   painPoints: [
     "Posting randomly without a clear content strategy",
     "No defined content pillars or brand voice",
@@ -188,4 +188,36 @@ export const ctaContent = {
   },
   secondaryText:
     "Prefer email? Reach me directly at wilmer@email.com",
+};
+export const funnelContent = {
+  headline: "The Growth Funnel I Build for Brands",
+  description:
+    "Every growth system follows a structured journey — designed to move cold traffic into loyal customers through strategy, content, and optimization.",
+  stages: [
+    {
+      title: "Traffic",
+      description: "SEO, organic content, paid acquisition",
+      metric: "+120% Reach Growth",
+    },
+    {
+      title: "Capture",
+      description: "Landing pages, lead magnets, optimized bios",
+      metric: "+35% Lead Conversion",
+    },
+    {
+      title: "Nurture",
+      description: "Email flows, retargeting, authority content",
+      metric: "+48% Engagement Lift",
+    },
+    {
+      title: "Convert",
+      description: "Offers, optimized CTAs, funnel refinement",
+      metric: "+22% Sales Uplift",
+    },
+    {
+      title: "Scale",
+      description: "Analytics, testing, system expansion",
+      metric: "ROAS Optimization",
+    },
+  ],
 };

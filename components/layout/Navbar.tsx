@@ -31,6 +31,10 @@ export default function Navbar() {
             <Link href="#packages" className="hover:text-black transition">
               Packages
             </Link>
+            <Link href="/funnels" className="hover:text-black transition">
+  Funnels
+</Link>
+
           </nav>
 
           {/* CTA */}
