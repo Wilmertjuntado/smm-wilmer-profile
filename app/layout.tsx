@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
 // Global UI Components
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -18,6 +17,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NODE_ENV === 'production' 
+      ? 'https://your-portfolio-domain.com' 
+      : 'http://localhost:3000'
+  ),
   title: "Wilmer Juntado | Ecommerce Growth Systems & SEO Strategy",
   description: "Ecommerce growth strategist building structured content funnels, SEO foundations, and data-driven social systems for startups and growth-focused brands.",
   keywords: [
