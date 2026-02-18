@@ -32,8 +32,8 @@ export default function Navbar() {
               Packages
             </Link>
             <Link href="/funnels" className="hover:text-black transition">
-  Funnels
-</Link>
+            Funnels
+            </Link>
 
           </nav>
 
