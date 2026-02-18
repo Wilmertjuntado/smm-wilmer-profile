@@ -38,7 +38,7 @@ export default function Funnel() {
         {/* Horizontal Funnel Diagram */}
         <div className="mt-20 relative flex justify-center items-center gap-4 flex-wrap">
           {/* Connecting line */}
-          <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-neutral-800 -z-10"></div>
+          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-neutral-800 -z-10"></div>
 
           {funnelContent.stages.map((stage, index) => (
             <div key={stage.title} className="flex items-center gap-4">
@@ -49,7 +49,7 @@ export default function Funnel() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: index * 0.15 }}
                 viewport={{ once: true }}
-                className="relative group flex-1 min-w-[200px] max-w-[220px]"
+                className="relative group flex-1 min-w-50 max-w-55"
               >
                 {/* Gradient Glow */}
                 <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-indigo-500/20 via-purple-500/10 to-transparent blur-2xl opacity-0 group-hover:opacity-100 transition duration-500" />

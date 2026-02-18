@@ -45,7 +45,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="relative min-h-[450px]">
+          <div className="relative min-h-112.5">
             <AnimatePresence mode="wait">
               {!isSubmitted ? (
                 <motion.div 

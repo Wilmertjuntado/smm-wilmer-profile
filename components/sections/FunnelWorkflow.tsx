@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Star,
+ 
   Target,
   BarChart,
   CheckCircle,
@@ -131,7 +131,7 @@ export default function FunnelPortfolio() {
                   </div>
 
                   {/* Funnel Stages - Automatically adjusts to the length of 'stages' in your data */}
-                  <div className="space-y-4 flex-grow">
+                  <div className="space-y-4 grow">
                     {current.stages.map((stage, i) => (
                       <motion.div
                         key={stage.title}
@@ -215,7 +215,7 @@ export default function FunnelPortfolio() {
                   >
                     <CheckCircle
                       size={18}
-                      className={`${current.textClass} mt-0.5 flex-shrink-0`}
+                      className={`${current.textClass} mt-0.5 shrink-0`}
                     />
                     {s.content}
                   </li>
