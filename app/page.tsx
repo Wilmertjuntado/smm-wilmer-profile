@@ -9,7 +9,7 @@ import Packages from "@/components/sections/Packages";
 import About from "@/components/sections/About";
 import CTA from "@/components/sections/CTA";
 import Funnel from "@/components/sections/Funnel";
-
+import Contact from "@/components/sections/Contact"; // Import the new section
 
 
 
@@ -22,12 +22,12 @@ export default function HomePage() {
         <Hero />
         <Problem />
         <Framework />
-        <Funnel />
-        
+        <Funnel />        
         <Proof />
         <Portfolio />
-        <Packages />
         <About />
+        <Packages />
+        <Contact />
         <CTA />
       </main>
 
@@ -35,3 +35,4 @@ export default function HomePage() {
     </>
   );
 }
+

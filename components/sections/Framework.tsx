@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Framework() {
   return (
-    <section className="py-24">
+    <section id="framework" className="py-24">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           

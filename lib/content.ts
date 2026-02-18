@@ -199,3 +199,24 @@ export const funnelContent = {
     { title: "Scale", description: "Analytics, testing, system expansion", metric: "ROAS Optimization" },
   ],
 };
+
+// Add this to your lib/content.ts
+
+export const funnelDesignSamples = {
+  categories: ["Landing Pages", "Ad Creative", "Email Design", "Automation Maps"],
+  samples: [
+    {
+      title: "High-Ticket Coaching Page",
+      category: "Landing Pages",
+      image: "/images/portfolio/landing-1.png",
+      description: "A conversion-optimized long-form sales page."
+    },
+    {
+      title: "E-com Retargeting Ad Set",
+      category: "Ad Creative",
+      image: "/images/portfolio/ads-1.png",
+      description: "Stop-the-scroll visual assets for Meta ads."
+    },
+    // Add more samples as you create them
+  ]
+};

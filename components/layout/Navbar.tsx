@@ -5,41 +5,38 @@ import { Container } from "./Container";
 
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200">
+    <header className="fixed top-0 left-0 right-0 z-[100] bg-white/90 backdrop-blur-md border-b border-neutral-200">
       <Container>
         <div className="flex items-center justify-between py-4">
           
           {/* Logo / Name */}
-          <Link
-            href="/"
-            className="text-lg font-semibold tracking-tight"
-          >
+          <Link href="/" className="text-lg font-bold tracking-tight text-black">
             Wilmer Juntado
           </Link>
 
-          {/* Nav Links */}
+          {/* Nav Links - Updated with absolute paths */}
           <nav className="hidden md:flex items-center gap-8 text-sm text-neutral-600">
-            <Link href="#framework" className="hover:text-black transition">
+            <Link href="/#framework" className="hover:text-black transition">
               Framework
             </Link>
-            <Link href="#proof" className="hover:text-black transition">
+            <Link href="/#proof" className="hover:text-black transition">
               Proof
             </Link>
-            <Link href="#portfolio" className="hover:text-black transition">
+            <Link href="/#portfolio" className="hover:text-black transition">
               Work
             </Link>
-            <Link href="#packages" className="hover:text-black transition">
+            <Link href="/#packages" className="hover:text-black transition">
               Packages
             </Link>
-            <Link href="/funnels" className="hover:text-black transition">
-            Funnels
+            {/* Kept as is since it points to a sub-page */}
+            <Link href="/funnels" className="hover:text-black transition font-medium text-black">
+              Funnels
             </Link>
-
           </nav>
 
-          {/* CTA */}
+          {/* CTA - Updated with absolute path */}
           <Link
-            href="#contact"
+            href="/#contact"
             className="rounded-xl bg-black px-4 py-2 text-sm font-medium text-white hover:opacity-90 transition"
           >
             Book Call

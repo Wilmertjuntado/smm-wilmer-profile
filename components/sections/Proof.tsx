@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function Proof() {
   return (
-    <section className="py-24 bg-neutral-50">
+    <section id="proof" className="py-24 bg-neutral-50">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           

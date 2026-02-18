@@ -8,7 +8,7 @@ import { CheckCircle } from "lucide-react";
 
 export default function About() {
   return (
-    <section className="py-24">
+    <section id="contact" className="py-24">
       <Container>
         <div className="grid items-center gap-12 md:grid-cols-2">
           
