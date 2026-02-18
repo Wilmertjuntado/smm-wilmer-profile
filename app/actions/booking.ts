@@ -9,9 +9,12 @@ export async function submitBooking(formData: FormData) {
   const goals = formData.get("goals");
 
   const { data, error } = await supabase
-    .from('bookings') // Make sure you have a table named 'bookings'
-    .insert([{ name, email, goals }])
-    .select();
+  .from('bookings')
+  .insert([{ 
+    name: name,   // Matches 'name' column in Supabase
+    email: email, // Matches 'email' column in Supabase
+    goals: goals  // Matches 'goals' column in Supabase
+  }])
 
   if (error) {
     console.error("Supabase Error:", error.message);
@@ -21,3 +24,4 @@ export async function submitBooking(formData: FormData) {
   revalidatePath("/");
   return { success: true };
 }
+
