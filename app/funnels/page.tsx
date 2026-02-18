@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
+import BackToTop from "@/components/ui/BackToTop";
 
 import FunnelWorkflow from "@/components/sections/FunnelWorkflow";
 // 1. ADD THESE MISSING IMPORTS:
@@ -47,6 +48,7 @@ export default function FunnelsPage() {
             </p>
           </div>
         </section>
+        <BackToTop />
       </main>
 
      
