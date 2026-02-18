@@ -27,7 +27,33 @@ export const metadata: Metadata = {
     "content marketing strategist",
     "conversion-focused social media",
   ],
+  // OpenGraph (Facebook, LinkedIn, etc.)
+  openGraph: {
+    title: "Wilmer Juntado | Ecommerce Growth Systems",
+    description: "Turning social media into a predictable growth engine for brands.",
+    url: "https://yourdomain.com", // Replace with your actual domain
+    siteName: "Wilmer Juntado Portfolio",
+    images: [
+      {
+        url: "/og-image.jpg", // This points to public/og-image.jpg
+        width: 1200,
+        height: 630,
+        alt: "Wilmer Juntado - Ecommerce Growth Strategist",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  // Twitter (X)
+  twitter: {
+    card: "summary_large_image",
+    title: "Wilmer Juntado | Ecommerce Growth Systems",
+    description: "Building structured content funnels and SEO foundations for growth-focused brands.",
+    images: ["/og-image.jpg"],
+  },
 };
+
 
 export default function RootLayout({
   children,

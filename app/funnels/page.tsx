@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function FunnelsPage() {
   return (
     <>
-      <Navbar />
+      
       
       {/* 2. Content starts here. Padding-top ensures Navbar doesn't cover text */}
       <main className="bg-white text-neutral-900 pt-20">
